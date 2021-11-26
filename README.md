@@ -43,10 +43,10 @@ To learn about cron jobs
 21. To restart the OpenSSH-server; `$sudo service ssh restart`
 22. To start UFW; `$sudo ufw enable`
 23. To stop UFW; `$sudo ufw disable`
-24. To check UFW status; `$sudo ufw status` This is also checks the ports currently allowed by UFW
+24. To check UFW status; `$sudo ufw status` This also checks the ports currently allowed by UFW
 25. To allow ports on UFW; `$sudo ufw allow [PORT NUMBER]`
-26. Some other interesting UFW commands can be found [here](https://www.linux.com/training-tutorials/introduction-uncomplicated-firewall-ufw/)
-27. To disallow ports of UFW; `$sudo ufw delete allow [PORT NUMBER]`
+26. To disallow ports of UFW; `$sudo ufw delete allow [PORT NUMBER]`
+27. Some other interesting UFW commands can be found [here](https://www.linux.com/training-tutorials/introduction-uncomplicated-firewall-ufw/)
 28. To edit cronjobs; `$crontab -e`
 29. To check scheduled cron job on your system; `$sudo crontab -l` If you want to check scheduled cron job for a particular user; `$sudo crontab -u [USERNAME] -l`
 30. To list partitions; `$lsblk` 
