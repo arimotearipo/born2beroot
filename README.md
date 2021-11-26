@@ -4,7 +4,7 @@ A project that will teach you about system administration
 To learn a bit about Virtual Machine (VM) and why use them  
 [DNS Stuff article on VM](https://www.dnsstuff.com/what-is-vm-virtual-machine)
 
-To learn about what is apt and what is Aptitute
+To learn about what is apt and what is Aptitute  
 [Tecmint article on apt and Aptitute](https://www.tecmint.com/difference-between-apt-and-aptitude/)
 
 To learn about a few differences between CentOS and Debian  
