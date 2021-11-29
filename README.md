@@ -49,4 +49,5 @@ To learn about cron jobs
 27. Some other interesting UFW commands can be found [here](https://www.linux.com/training-tutorials/introduction-uncomplicated-firewall-ufw/)
 28. To edit cronjobs; `$crontab -e`
 29. To check scheduled cron job on your system; `$sudo crontab -l` If you want to check scheduled cron job for a particular user; `$sudo crontab -u [USERNAME] -l`
-30. To list partitions; `$lsblk` 
+30. To stop cronjobs even after rebooting; `$sudo /etc/init.d/crond stop`. To reverse this action; `$sudo /etc/init.d/crond start`
+32. To list partitions; `$lsblk` 
