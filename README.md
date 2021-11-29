@@ -28,9 +28,9 @@ To learn about cron jobs
 6. To check for the existence of a particular application; `$dpkg -l | grep '[APPLICATION NAME]'` Similarly, you can use `$apt list --installed | grep '[APPLICATION NAME]'` 
 7. To switch user; `$su - [USERNAME]` If no username is entered, then you will be switched to root.
 8. To add another user; `$sudo adduser [USERNAME]`
-9. To delete user; `$user [USERNAME]` Use `-r` flag to delete the user's home directory as well. Use `-f` to force delete the user regardless of whether the user is still logged in
+9. To delete user; `$userdel [USERNAME]` Use `-r` flag to delete the user's home directory as well. Use `-f` to force delete the user regardless of whether the user is still logged in
 10. To rename user; `$usermod -l [NEW USERNAME] [OLD USERNAME]`
-11. To list users; `$cat /etc/passd | cut -d: -f1`
+11. To list users; `$cat /etc/passwd | cut -d: -f1`
 12. To add a user to a group; `$sudo usermod -a -G [GROUPNAME] [USERNAME]`
 13. To remove a user from a group; `$sudo gpasswd -d [USERNAME] [GROUPNAME]`
 14. To create a group; `$groupadd [GROUPNAME]`
